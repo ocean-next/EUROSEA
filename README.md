@@ -1,13 +1,13 @@
 # Ocean Next participation in H2020-EUROSEA
 ![H2020-EURSEA](./figs/logoEUROSEA.png)<br>
 
-This repo gathers the work that Stephanie Leroux and  Aurélie Albert @ Ocean Next  have done as part of Task 2.3 in the H2020-EUROSEA project.
+__This repo gathers the work that Stephanie Leroux and  Aurélie Albert @ Ocean Next  have done as part of Task 2.3 in the H2020-EUROSEA project.__
 
 H2020-EUROSEA is a project aiming at improving and integrating the European Ocean Observing and Forecasting System  (see official website[https://eurosea.eu/]{https://eurosea.eu/}). It has received funding from the European Union’s Horizon 2020  research and innovation programme under grant agreement No 862626).
 
 Task 2.3 of the project is dedicated to the design of the Observing System Simulation Experiments (OSSEs) with multi-platform in situ data and impact on fine- scale structures. Contributors to WP2.3 are CISC (Lead), IMT, MOI, CLS, SOCIB, Ocean Next, ENS.
 
-Ocean Next has been in charge of preparing some of the datasets (model outputs and pseudo-observations) based on the eNATL60 simulation ([Brodeau et al, 2020]{http://doi.org/10.5281/zenodo.4032732.}) in order to be used for the OSSEs planned in Task 2.3. Two regions were selected for those OSSEs,  centered on two [SWOT crossovers]{https://www.clivar.org/news/swot-%E2%80%98adopt-crossover%E2%80%99-consortium-has-been-endorsed-clivar} : West Mediterranean Sea (WESTMED) and North Atlantic (NANF).  
+Ocean Next has been in charge of preparing some of the datasets (model outputs and pseudo-observations) based on the  existing eNATL60 simulation ([Brodeau et al, 2020]{http://doi.org/10.5281/zenodo.4032732.}) in order to be used for the OSSEs planned in Task 2.3. Two regions were selected, centered on two [SWOT crossovers]{https://www.clivar.org/news/swot-%E2%80%98adopt-crossover%E2%80%99-consortium-has-been-endorsed-clivar} : West Mediterranean Sea (WESTMED) and North Atlantic (NANF).  
 
 
 
