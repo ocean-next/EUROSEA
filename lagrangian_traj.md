@@ -31,9 +31,10 @@ _What do the netcdf files  contain:_
 
 * Jupyter notebook available [here soon](./notebooks/).
 
-[traj2](./figs/fig4.png)<br>
-
+![traj2](./figs/fig4.png)<br>
 _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region._
+
+
 
 ---
 ### Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region
@@ -53,8 +54,6 @@ Note2:
 
 * _Jupyter notebook available [here](./notebooks/2021-05-01_SLX_JZ_lagrangiantraj_4IMEDA.ipynb)._
 
-
 ![traj1](./figs/figlagrangian1.png)<br>
 _Fig.2 Initial location (a) and trajectories (b) of the 49  lagrangian particles  over the 6-day period from 1st of september to 7th of september 200,9 computed with Ocean Parcels from the eNATL60 simulation (no tide) hourly outputs in the MEDWEST predefined region. The SSH field is shown as background : (a) on the 1st of september, and  (b) averaged over the 6-day period._
-
 
