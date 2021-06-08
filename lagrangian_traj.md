@@ -2,7 +2,7 @@
 Stephanie Leroux, Ocean Next
 
 
-* The computation of the lagrangian trajectories  is made with Ocean Parcels (https://oceanparcels.org/).
+* The computation of the lagrangian trajectories  is made with Ocean Parcels (https://oceanparcels.org/), based on hourly eNATL60 currents at 15 m in the two subregions of the EUROSEA project.
 * Two different types of experiments were  performed, following two distinct request for Task2.3: 
   - [For CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06).](./lagrangian_traj_4cls.md)
   - [For IMEDEA: 1 set of 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region.](./lagrangian_traj_4imeda.md)
