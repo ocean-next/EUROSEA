@@ -3,9 +3,9 @@ Stephanie Leroux, Ocean Next
 
 
 * The computation of the lagrangian trajectories  is made with Ocean Parcels (https://oceanparcels.org/).
-* Two different sets of trajectories were produced following two distinct request for Task2.3: 
- - Set 1 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06).
- - Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region.
+* Two different  experiments were  performed, following two distinct request for Task2.3: 
+  - Set 1 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06).
+  - Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region.
 
 
 ---
