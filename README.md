@@ -17,7 +17,6 @@ _Fig.1 The two subregions MEDWEST and NANFL selected for Task 2.3, centered on  
 
 
 ## Datasets available :
-(upon request, contact us!)
 
 **Regional extractions of  the eNATL60 simulation (eNATL60-no-tide):**
 
@@ -28,9 +27,10 @@ _Fig.1 The two subregions MEDWEST and NANFL selected for Task 2.3, centered on  
 - Fields available at native resolution (1/60º, hourly) 
 - Fields also available at downgraded resolution (1/20º, daily) 
 - +(NEMO mask,mesh files to describe the model grid)
+- as of today this data is available upon request, contact us or the [MEOM group @IGE](https://meom-group.github.io/).!
 
 **Pseudo-obs  generated from the above model outputs and for the 2 subregions:**
 
-- pseudo-SWOT (swath and nadir, both for the sampling and science phase) [[See here](./swot_pseudoobs.md)],
-- pseudo alongtrack SENTINEL3,  SARAL, ENVISAT [[See here](./nadir_alongtrack.md)],
-- Lagrangian particles (pseudo-drifters) in the MEDWEST subregion [[See here](./lagrangian_traj.md)].
+- pseudo-SWOT (swath and nadir, both for the sampling and science phase) [[data and info here](./swot_pseudoobs.md)],
+- pseudo alongtrack SENTINEL3,  SARAL, ENVISAT [[data and info here](./nadir_alongtrack.md)],
+- Lagrangian particles (pseudo-drifters) in the MEDWEST subregion [[data and info here](./lagrangian_traj.md)].
