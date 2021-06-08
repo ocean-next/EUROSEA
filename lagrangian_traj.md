@@ -8,7 +8,7 @@ Stephanie Leroux, Ocean Next
  - Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region.
 
 
-
+---
 ### Set 1 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
 
 _Where to download the data:_
@@ -34,6 +34,7 @@ _What do the netcdf files  contain:_
 [traj2](./figs/figlagrangian3.png)<br>
 _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region._
 
+---
 ### Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region
 
 * _Where to download the data:_  https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories/catalog.html
