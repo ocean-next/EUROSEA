@@ -12,7 +12,6 @@ Task 2.3 of the project is dedicated to the __design of the Observing System Sim
 * _Ocean Next contribution_<br>
 Ocean Next has been in charge of preparing and making available some of the datasets (model outputs and pseudo-observations) based on the  existing eNATL60 simulation ([Brodeau et al, 2020](http://doi.org/10.5281/zenodo.4032732.)) in order to be used for the OSSEs planned in Task 2.3. Two regions were selected, centered on two [SWOT crossovers](https://www.clivar.org/news/swot-%E2%80%98adopt-crossover%E2%80%99-consortium-has-been-endorsed-clivar) : West Mediterranean Sea (WESTMED) and North Atlantic (NANF), see Fig.1.  
 
-![subregions](./figs/regions2.png)<br>
 ![subregions](./figs/regions4.png)<br>
 _Fig.1 The two subregions MEDWEST and NANF selected for Task 2.3, centered on  SWOT crossover._
 
