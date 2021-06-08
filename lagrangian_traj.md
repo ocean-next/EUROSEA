@@ -1,4 +1,4 @@
-## Advecting  lagrangian particles in eNATL60 hourly currents (u,v at 15-m) for EUROSEA WP2.3
+# Advecting  lagrangian particles with eNATL60 hourly currents (u,v at 15-m)
 Stephanie Leroux, Ocean Next
 
 
@@ -9,7 +9,7 @@ Stephanie Leroux, Ocean Next
 
 
 
-## Set 1 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
+### Set 1 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
 
 _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories_b/catalog.html
@@ -31,10 +31,10 @@ _What do the netcdf files  contain:_
 
 * Jupyter notebook available [here soon](./notebooks/).
 
-[traj2](./figs/figlagrangian2.png)<br>
+[traj2](./figs/figlagrangian3.png)<br>
 _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region._
 
-## Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region
+### Set 2 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region
 
 * _Where to download the data:_  https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories/catalog.html
 
@@ -49,7 +49,7 @@ _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 mo
   - the interpolated u and v at 15m are given in unit: m/s in the variables u_conv and v_conv in the file,   and in unit: deg/s in the variables u_interp, v_interp. 
 Note2: 
 
-* __Jupyter notebook available [here](./notebooks/2021-05-01_SLX_JZ_lagrangiantraj_4IMEDA.ipynb).__
+* _Jupyter notebook available [here](./notebooks/2021-05-01_SLX_JZ_lagrangiantraj_4IMEDA.ipynb)._
 
 
 ![traj1](./figs/figlagrangian1.png)<br>
