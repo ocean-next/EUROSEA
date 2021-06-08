@@ -1,8 +1,5 @@
 ## Extracting  alongtrack nadir SSH pseudo-observations in the EUROSEA target regions
 
-Stephanie Leroux, Ocean Next
-
-
 * _What?_ 
   - Along-track pseudo-observation (SSH) from the simulation eNATL60-BLB002, extracted on the 2 subregions (MEDWEST and NANFL). 
   - The interpolation is made with the software Sosie (https://brodeau.github.io/sosie/) based on  the Akima interpolation method.
