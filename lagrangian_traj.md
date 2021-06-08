@@ -31,7 +31,8 @@ _What do the netcdf files  contain:_
 
 * Jupyter notebook available [here soon](./notebooks/).
 
-[traj2](./figs/figlagrangian3.png)<br>
+[traj2](./figs/fig4.png)<br>
+
 _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region._
 
 ---
