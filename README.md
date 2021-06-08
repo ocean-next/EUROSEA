@@ -17,7 +17,7 @@ Ocean Next has been in charge of preparing and making available some of the data
 _Fig.1 The two subregions MEDWEST and NANFL selected for Task 2.3, centered on  SWOT crossover._
 
 
-## The datasets we prepared and made available :
+## The datasets :
 
 **Regional extractions of  the eNATL60 simulation (eNATL60-no-tide):**
 
