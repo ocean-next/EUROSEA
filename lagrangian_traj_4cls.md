@@ -1,15 +1,5 @@
 # Advecting  lagrangian particles with eNATL60 hourly currents (u,v at 15-m)
-Stephanie Leroux, Ocean Next
-
-
-* The computation of the lagrangian trajectories  is made with Ocean Parcels (https://oceanparcels.org/).
-* Two different types of experiments were  performed, following two distinct request for Task2.3: 
-  - For CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06).
-  - For IMEDEA: 1 set of 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region.
-
-
----
-### For CLS:  4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
+### a. For CLS:  4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
 
 _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories_b/catalog.html
