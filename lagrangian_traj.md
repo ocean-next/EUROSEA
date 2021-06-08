@@ -1,11 +1,11 @@
-# Advecting  lagrangian trajectories in eNATL60 hourly currents (u,v at 15-m) for EUROSEA WP2.3
+## Advecting  lagrangian trajectories in eNATL60 hourly currents (u,v at 15-m) for EUROSEA WP2.3
 Stephanie Leroux, Ocean Next
 
 
 * The computation of the lagrangian trajectories  is made with Ocean Parcels (https://oceanparcels.org/).
 * Two different sets of trajectories were produced following two distinct request for Task2.3: Set1-IMEDEA, Set2CLS.
 
-## Set1-IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small region
+## Set 1 for IMEDEA: 49 particles advected for 7 days (2009-09-01 to 2009-09-07) in a small subregion region
 
 * _Where to download the data:_  https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories/catalog.html
 
@@ -23,17 +23,12 @@ Note2:
 * Jupyter notebook available [here](./notebooks/2021-05-01_SLX_JZ_lagrangiantraj_4IMEDA.ipynb).
 
 
-
-
+![subregions](./figs/figlagrangian1.png)<br>
 _Fig.1 Initial location (a) and trajectories (b) of the 49  lagrangian particles  over the 6-day period from 1st of september to 7th of september 200,9 computed with Ocean Parcels from the eNATL60 simulation (no tide) hourly outputs in the MEDWEST predefined region. The SSH field is shown as background : (a) on the 1st of september, and  (b) averaged over the 6-day period._
 
 
 
-
-
-
-
-## Set2-CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
+## Set 2 for CLS: 4 sets of 146 particles advected for 4 months each, re-initiated every 3 months  to cover one year (2009-09 to 2010-06)
 
 _Where to download the data:_
 https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories_b/catalog.html
@@ -54,3 +49,7 @@ _What do the netcdf files  contain:_
   - The interpolated u and v at 15m are given with the unit: m/s in the variables u_conv and v_conv in the file,   and in unit: deg/s in the variables u_interp, v_interp. 
 
 * Jupyter notebook available [here soon](./notebooks/).
+
+[subregions](./figs/figlagrangian2.png)<br>
+_Fig.2 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region.
+_
