@@ -1,7 +1,7 @@
 # Ocean Next participation in H2020-EUROSEA
 ![H2020-EURSEA](./figs/logoEUROSEA.png)<br>
 
-### This repo gathers the work that Stephanie Leroux and  Aurélie Albert @ Ocean Next  have done as part of Task 2.3 in the H2020-EUROSEA project.
+### This repo gathers the work that  Aurélie Albert and Stephanie Leroux @ Ocean Next  have done as part of Task 2.3 in the H2020-EUROSEA project.
 
 * _What is H2020-EUROSEA?_<br>
 H2020-EUROSEA is a project aiming at improving and integrating the European Ocean Observing and Forecasting System  (see official website: [https://eurosea.eu/](https://eurosea.eu/)). It has received funding from the European Union’s Horizon 2020  research and innovation programme under grant agreement No 862626).
