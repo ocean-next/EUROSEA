@@ -28,7 +28,7 @@ _Fig.1 The two subregions MEDWEST and NANFL selected for Task 2.3, centered on  
 - Fields available at native resolution (1/60º, hourly) 
 - Fields also available at downgraded resolution (1/20º, daily) 
 - +(NEMO mask,mesh files to describe the model grid)
-- as of today this data is available upon request, contact us or the [MEOM group @IGE](https://meom-group.github.io/).!
+- as of today this data is available upon request, contact us or the [MEOM group@IGE, Grenoble](https://meom-group.github.io/).
 
 **Pseudo-obs  generated from the above model outputs and for the 2 subregions:**
 
