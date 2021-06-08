@@ -6,7 +6,7 @@ In collaboration with M. Ballarota (CLS), the latest version of the SWOT Simulat
 
 * Two different configurations of SWOT have been applied for the period of eNATL60 01/07/2009-30/06/2010 : the __calval phase (fast-sampling)__ and the __science phase__ (see Fig.1 and 2).
 
-* As of today this data is available upon request, contact us or the [MEOM group@IGE, Grenoble]().
+* As of today this data is available upon request, contact us or the [MEOM group@IGE, Grenoble](https://meom-group.github.io/).
 
 * For each region, the files for the  calval phase and the science phase are in distinct directories. Then for each phase, __karin__ and __nadir data__ are in distinct directories. 
 
@@ -15,7 +15,6 @@ See https://swot-simulator.readthedocs.io/en/latest/errors.html for  a descripti
 
 * For nadir data, there is only num_lines dimension (no cross track). The variables are ssh_nadir, err_altimeter, err_wet_troposphere and ssh_nadir_true (no errors).
 
-* Data available upon request (contact us).
 
 ![subregions](./figs/regions4.png)<br>
 _Fig.1 The calval phase (fast-sampling) : repeating trajectories_
