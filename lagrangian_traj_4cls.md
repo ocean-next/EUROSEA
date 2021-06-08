@@ -17,7 +17,12 @@ _What do the netcdf files  contain:_
   - The files contain variables: time, lat, lon of each trajectory, and also interpolated values of u_convert, v_convert  at each particle location (other NEMO variables could be interpolated too,  upon request). 
   - The interpolation in space is done by Ocean Parcels, which carefully takes into account the specificities of the NEMO grid (C-grid) (see OP’s doc: https://nbviewer.jupyter.org/github/OceanParcels/parcels/blob/master/parcels/examples/tutorial_nemo_curvilinear.ipynb).
   - Each variable has  2 dimensions: ‘traj’  (id of each trajectory) and ‘obs’ (each obs along the trajectory, ie here every 1h for 4 month) . 
-  - The interpolated u and v at 15m are given with the unit: m/s in the variables u_conv and v_conv in the file,   and in unit: deg/s in the variables u_interp, v_interp. 
+  - The interpolated u and v at 15m are given with the unit: m/s in the variables u_conv and v_conv in the file,and in unit: deg/s in the variables u_interp, v_interp. 
+
+_Wind forcing files:_
+* The surface wind data used to force the eNATL60 simulation is also provided, i.e. u10 and v10 (global)  for 2009 and 2010:
+    - Download here: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/DFS5.2/catalog.html 
+    - More info on the DF5.2 forcing: [The making of the Drakkar Forcing Set DFS5. R.Dussin, B. Barnier, L. Brodeau, Drakkar/MyOcean Report 05-10-2014](https://www.drakkar-ocean.eu/forcing-the-ocean/the-making-of-the-drakkar-forcing-set-dfs5)
 
 * __Demo jupyter notebooks__:
   - How to create a particle set and advect it with Ocean Parcels [notebook here](./notebooks/2021-05-31_SLX_JZ_parcels_demo_advect.ipynb),
