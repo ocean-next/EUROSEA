@@ -1,4 +1,5 @@
 ## Extracting alongtrack nadir SSH from eNATL60-no-tide in the EUROSEA target regions
+Stephanie Leroux
 
 * _What?_ 
   - Along-track sampling of the model SSH (eNATL60-no-tide) in the 2 subregions (MEDWEST and NANFL). 
