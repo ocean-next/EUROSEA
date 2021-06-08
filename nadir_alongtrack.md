@@ -22,7 +22,7 @@ Sampling of the model SSH along the satellite tracks of :
     - From 2010-07-01 to 2010-12-31.
     - From 2011-01-01 to 2011-06-30.
 
-* _Where to download the data:
+* _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/pseudo-ssh-alongtrack/catalog.html
 
 * _Note:_ `sossheig`  is the Sea Surface Height (SSH) as simulated by the  model. Keep in mind that the ocean model does not conserve mass with time (because of precipitation, etc. . . ). The spatial mean over the globe of the model SSH (or SLA) at any given time has thus no physical meaning, and can be removed before comparison with the real observed SLA (e.g. Greatbatch 1994).
