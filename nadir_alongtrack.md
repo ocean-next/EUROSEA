@@ -1,7 +1,7 @@
-## Extracting alongtrack nadir SSH in the EUROSEA target regions from eNATL60-no-tide
+## Extracting alongtrack nadir SSH from eNATL60-no-tide in the EUROSEA target regions
 
 * _What?_ 
-  - Along-track sampling of the model SSH (eNATL60-no-tide), extracted on the 2 subregions (MEDWEST and NANFL). 
+  - Along-track sampling of the model SSH (eNATL60-no-tide) in the 2 subregions (MEDWEST and NANFL). 
   - The interpolation is made with the software Sosie (https://brodeau.github.io/sosie/) based on  the Akima interpolation method.
   - Each file is 6-month long:
   - In each file you’ll find:
