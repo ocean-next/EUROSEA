@@ -29,10 +29,10 @@ _What do the netcdf files  contain:_
   - Each variable has  2 dimensions: ‘traj’  (id of each trajectory) and ‘obs’ (each obs along the trajectory, ie here every 1h for 4 month) . 
   - The interpolated u and v at 15m are given with the unit: m/s in the variables u_conv and v_conv in the file,   and in unit: deg/s in the variables u_interp, v_interp. 
 
-* Demo jupyter notebooks:
-  - How to create a particle set and advect it with Ocean Parcels [here soon](./notebooks/),
-  - How to convert the sampled currents from degree/second in meters/second [here soon](./notebooks/),
-  - How to plot the trajectories [here soon](./notebooks/)
+* __Demo jupyter notebooks__:
+  - How to create a particle set and advect it with Ocean Parcels [here soon](./notebooks/2021-05-31_SLX_JZ_parcels_demo_advect.ipynb),
+  - How to convert the sampled currents from degree/second in meters/second [here soon](./notebooks/2021-05-31_SLX_JZ_parcels_demo-convert.ipynb),
+  - How to plot the trajectories [here soon](./notebooks/2021-05-31_SLX_JZ_parcels_demo-plots.ipynb)
 
 ![traj2](./figs/fig4.png)<br>
 _Fig.1 Initial location and trajectories of  105  lagrangian particles over 4 months (2009-07 to 2009-10) computed with Ocean Parcels from the eNATL60 simulation  hourly currents in the MEDWEST predefined region. The averaged SSH field is shown as background. (a) shows the entire MEDWEST domain, (b) shows a zoom on a smaller region._
