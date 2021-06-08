@@ -1,7 +1,7 @@
 ## Extracting alongtrack nadir SSH in the EUROSEA target regions from eNATL60-no-tide
 
 * _What?_ 
-  - Along-track pseudo-observation (SSH) from the simulation eNATL60-BLB002, extracted on the 2 subregions (MEDWEST and NANFL). 
+  - Along-track sampling of the model SSH (eNATL60-no-tide), extracted on the 2 subregions (MEDWEST and NANFL). 
   - The interpolation is made with the software Sosie (https://brodeau.github.io/sosie/) based on  the Akima interpolation method.
   - Each file is 6-month long:
   - In each file you’ll find:
@@ -10,13 +10,14 @@
     - sossheig_np (Sea Surface Height at nearest model grid point )
 
 * _Data:_
-  - Pseudo-SENTINEL3A
+Sampling of the model SSH along the satellite tracks of :
+  - SENTINEL3A
     - From 2016-07-01 to 2016-12-31.
     - From 2017-01-01 to 2017-06-30.
-  - Pseudo-SARAL (!! _Drifting Phase_ !!)
+  - SARAL (!! _Drifting Phase_ !!)
     - From 2016-07-01 to 2016-12-31 
     - From 2017-01-01 to 2017-06-30.
-  - Pseudo-ENVISAT
+  - ENVISAT
     - From 2010-07-01 to 2010-12-31.
     - From 2011-01-01 to 2011-06-30.
 
