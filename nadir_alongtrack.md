@@ -1,4 +1,4 @@
-## Extracting  alongtrack nadir SSH pseudo-observations in the EUROSEA target regions
+## Extracting alongtrack nadir SSH in the EUROSEA target regions from eNATL60-no-tide
 
 * _What?_ 
   - Along-track pseudo-observation (SSH) from the simulation eNATL60-BLB002, extracted on the 2 subregions (MEDWEST and NANFL). 
