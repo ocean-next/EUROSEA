@@ -6,7 +6,7 @@ In collaboration with M. Ballarota (CLS), the 2020 version of the SWOT Simulator
 
 * Two different configurations of SWOT have been applied for the period of eNATL60 01/07/2009-30/06/2010 : the __calval phase (fast-sampling)__ and the __science phase__ (see Fig.1 and 2).
 
-* For each region, the files for the  calval phase and the science phase are in distinct directories. Then for each phase, __karin__ and __nadir data__ are in distinct directories:
+* For each region, the files for the  calval phase and the science phase are in distinct directories. Then for each phase, __karin__ and __nadir data__ are in distinct directories (see Fig.3 and 4):
   - NANFL: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/SWOT-sim/catalog.html?dataset=meomscanpublic/Eurosea/SWOT-sim/NANFL.tar
   - MEDWEST: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/SWOT-sim/catalog.html?dataset=meomscanpublic/Eurosea/SWOT-sim/MEDWEST.tar   
 
@@ -20,3 +20,9 @@ _Fig.1 The calval phase (fast-sampling) : repeating trajectories_
 
 ![subregions](./figs/regions5.png)<br>
 _Fig.2 The science phase : full coverage_
+
+![tracks1](./figs/med_tracks.png)<br>
+_Fig.3 MEDWEST tracks (calval phase and science phase).
+
+![tracks2](./figs/nanfl_tracks.png)<br>
+_Fig.4 NANFL tracks (calval phase and science phase).
