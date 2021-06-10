@@ -22,7 +22,7 @@ _Fig.1 The calval phase (fast-sampling) : repeating trajectories_
 _Fig.2 The science phase : full coverage_
 
 ![tracks1](./figs/tmed.png)<br>
-_Fig.3 MEDWEST tracks (calval phase and science phase).
+_Fig.3 MEDWEST tracks (calval phase and science phase)._
 
 ![tracks2](./figs/tnanfl.png)<br>
-_Fig.4 NANFL tracks (calval phase and science phase).
+_Fig.4 NANFL tracks (calval phase and science phase)._
