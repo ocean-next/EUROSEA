@@ -22,7 +22,7 @@ Sampling of the model SSH along the satellite tracks of :
 
 
 * _How is this done?_
-  - [Notebook explaining how to download and prepare the satellite files before applying the interpolation tool](../notebooks/).
-  - [Notebook explaining how to prepare the model files before applying the interpolation tool](../notebooks/).
-  - [Notebook demonstrating the interpolation step](../notebooks/2022-02-18_interpolation_alongtrack.ipynb).
-  - [Notebook demonstrating how to read and plot the interpolated data and compare to the gridded model fields](../notebooks/2022-02-18_plot_and_check_alontrack.ipynb).
+  - [Notebook explaining how to download and prepare the satellite files before applying the interpolation tool](https://github.com/ocean-next/EUROSEA/tree/main/notebooks).
+  - [Notebook explaining how to prepare the model files before applying the interpolation tool](https://github.com/ocean-next/EUROSEA/tree/main/notebooks).
+  - [Notebook demonstrating the interpolation step](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_interpolation_alongtrack.ipynb).
+  - [Notebook demonstrating how to read and plot the interpolated data and compare to the gridded model fields](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_plot_and_check_alontrack.ipynb).
