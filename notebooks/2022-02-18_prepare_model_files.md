@@ -1,6 +1,6 @@
 ## Prepare model gridded files:
 
-* The interpolation tool ([gonzag](https://github.com/brodeau/gonzag)) will need the model files at a specific format with only the variable (sossheig) and `glamt` and `gphit` the latitude and longitude of each model grid for SSH (i.e. on the T-grid points  in NEMO). So from the native model outputs, a few NCO operations are needed to prepare the files before the interoperation tools:
+* The interpolation tool ([gonzag](https://github.com/brodeau/gonzag)) will need the model files at a specific format with only the variable (sossheig) and `glamt` and `gphit` the latitude and longitude of the model grid of SSH (i.e. on the T-grid points  in NEMO). So from the native model outputs, a few NCO, CDO and CDFTOOLS operations are needed to prepare the files before the interoperation tools:
 		
 * Get glamt and gphit from mesh file:
 ```
