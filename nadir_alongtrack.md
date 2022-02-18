@@ -1,9 +1,9 @@
 ## Extracting alongtrack nadir SSH from eNATL60-no-tide in the EUROSEA target regions
-Stephanie Leroux
+Stephanie Leroux, UPDATED Feb 2022.
 
 * _What?_ 
-  - Along-track sampling of the model SSH (eNATL60-no-tide) in the 2 subregions (MEDWEST and NANFL). 
-  - The interpolation is made with the software Sosie (https://brodeau.github.io/sosie/) based on  the Akima interpolation method.
+  - Along-track sampling of the model SSH (eNATL60-no-tide) in the MEDWEST subregion. 
+  - The interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
   - Each file is 6-month long:
   - In each file you’ll find:
     - sla_unfiltered (the real obs value (SLA)
@@ -12,17 +12,17 @@ Stephanie Leroux
 
 * _Data:_
 Sampling of the model SSH along the satellite tracks of :
-  - SENTINEL3A
-    - From 2016-07-01 to 2016-12-31.
-    - From 2017-01-01 to 2017-06-30.
-  - SARAL (!! _Drifting Phase_ !!)
-    - From 2016-07-01 to 2016-12-31 
-    - From 2017-01-01 to 2017-06-30.
-  - ENVISAT
-    - From 2010-07-01 to 2010-12-31.
-    - From 2011-01-01 to 2011-06-30.
+  - JASON3
+    - From 2020-07-01 to 2020-12-31.
+    - From 2021-01-01 to 2021-06-30.
+  - Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B: TO COME SOON.
 
 * _Where to download the data:_
-  - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/pseudo-ssh-alongtrack/catalog.html
+  - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
 
-* _Note:_ `sossheig`  is the Sea Surface Height (SSH) as simulated by the  model. Keep in mind that the ocean model does not conserve mass with time (because of precipitation, etc. . . ). The spatial mean over the globe of the model SSH (or SLA) at any given time has thus no physical meaning, and can be removed before comparison with the real observed SLA (e.g. Greatbatch 1994).
+
+* _How is this done?_
+  - [Notebook explaining how to download and prepare the satellite files before applying the interpolation tool](../notebooks/).
+  - [Notebook explaining how to prepare the model files before applying the interpolation tool](../notebooks/).
+  - [Notebook demonstrating the interpolation step](../notebooks/2022-02-18_interpolation_alongtrack.ipynb).
+  - [Notebook demonstrating how to read and plot the interpolated data and compare to the gridded model fields](../notebooks/2022-02-18_plot_and_check_alontrack.ipynb).
