@@ -22,8 +22,8 @@ Sampling of the model SSH along the satellite tracks of :
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
 
 
-* _How is this done?_
-  - [Notebook explaining how to download and prepare the satellite files before applying the interpolation tool](https://github.com/ocean-next/EUROSEA/tree/main/notebooks).
-  - [Notebook explaining how to prepare the model files before applying the interpolation tool](https://github.com/ocean-next/EUROSEA/tree/main/notebooks).
-  - [Notebook demonstrating the interpolation step](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_interpolation_alongtrack.ipynb).
-  - [Notebook demonstrating how to read and plot the interpolated data and compare to the gridded model fields](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_plot_and_check_alontrack.ipynb).
+* _How is this done? (step by step documentation)_
+  - Step1. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-02-18_download-sat-data.md) explaining how to download and prepare the satellite files before applying the interpolation tool.
+  - Step2. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-02-18_prepare_model_files.md) explaining how to prepare the model files before applying the interpolation tool.
+  - Step3. [Notebook](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_interpolation_alongtrack.ipynb) demonstrating the interpolation step.
+  - Step4. [Notebook](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_plot_and_check_alontrack.ipynb) demonstrating how to read and plot the interpolated data and compare to the gridded model fields.
