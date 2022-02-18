@@ -4,7 +4,8 @@
 
 * Data downloaded using the script [`download_alontrack_data_cmems_SLX_2022_NRT.sh`](https://github.com/ocean-next/EUROSEA/blob/main/scripts/download_alontrack_data_cmems_SLX_2022_NRT.sh). The same script also unzips and concatenates the data, and make the time dimension a record dimension (DEPENDENCIES: python 2.7, motuclient (python), and NCO to be installed). You need to put your own CMEMS id and login in the script of course. 
 * Usage:  
-```./download_alontrack_data_cmems_SLX_2022_NRT.sh <satellite> <year1> <MM1DD1> <year2> <MM2DD2>
+```
+./download_alontrack_data_cmems_SLX_2022_NRT.sh <satellite> <year1> <MM1DD1> <year2> <MM2DD2>
 ```
 * I downloaded only 6 months at a time otherwise the files are too big to process. Usage: 
 ```
