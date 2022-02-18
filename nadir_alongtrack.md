@@ -27,3 +27,6 @@ Sampling of the model SSH along the satellite tracks of :
   - Step2. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-02-18_prepare_model_files.md) explaining how to prepare the model files before applying the interpolation tool.
   - Step3. [Notebook](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_interpolation_alongtrack.ipynb) demonstrating the interpolation step.
   - Step4. [Notebook](https://github.com/ocean-next/EUROSEA/tree/main/notebooks/2022-02-18_plot_and_check_alontrack.ipynb) demonstrating how to read and plot the interpolated data and compare to the gridded model fields.
+
+![subregions](./figs/jason3.png)<br>
+_Fig.1 Example of interpolated SSH along jason3 tracks (3 day period)_
