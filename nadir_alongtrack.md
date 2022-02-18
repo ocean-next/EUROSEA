@@ -9,6 +9,7 @@ Stephanie Leroux, UPDATED Feb 2022.
     - sla_unfiltered (the real obs value (SLA)
     - sossheig (Sea Surface Height interpolated at all alongtrack locations)
     - sossheig_np (Sea Surface Height at nearest model grid point )
+  - Important: Note that the sla_filtered value (the real obs) is _not_ expected to be consistent with the interpolated model values (sossheig) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
 
 * _Data:_
 Sampling of the model SSH along the satellite tracks of :
