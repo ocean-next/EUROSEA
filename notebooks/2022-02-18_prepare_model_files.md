@@ -24,7 +24,7 @@ cdfmean
 
 * Remove the gulf of Gascogne from the model outputs:
 ```
-cdfbathy -file modelfile.nc  -var sossheig -zoom 1 243 655 803 -set_zone 32767 
+cdfbathy -file modelfile.nc  -var sossheig -zoom 1 243 655 803 -set_zone 32767 -t 0
 ```
 
 * Append glam and gphit to the SSH model output file:
