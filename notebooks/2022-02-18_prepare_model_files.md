@@ -8,7 +8,21 @@ ncks -v glamt,gphit -o missvar.nc mesh_hgr_eNATL60MEDWEST_3.6.nc
 ncwa  -a t missvar.nc missvar_cleaned.nc
 ```
 
-* 	 Remove the gulf of Gascogne from the model outputs:
+* Compute time-mean SSH and remove from SSH file to get SLA.
+```
+cdfmoy -l SSHmodelfile.nc -vvl -nc4 -var sossheig -o SSH_TimeMean.nc
+ncwa -O -a time_counter SSH_TimeMean.nc SSH_TimeMean.nc
+ncdiff -4 -L 4 -v sossheig SSHmodelfile.nc SSH_TimeMean.nc SLAmodel.nc4
+```
+
+* Compute and remove spatial mean from SLA model files:
+```
+cdfmean
+
+```
+
+
+* Remove the gulf of Gascogne from the model outputs:
 ```
 cdfbathy -file modelfile.nc  -var sossheig -zoom 1 243 655 803 -set_zone 32767 
 ```
