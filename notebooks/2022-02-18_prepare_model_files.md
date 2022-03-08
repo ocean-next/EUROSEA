@@ -15,16 +15,15 @@ ncwa -O -a time_counter SSH_TimeMean.nc SSH_TimeMean.nc
 ncdiff -4 -L 4 -v sossheig SSHmodelfile.nc SSH_TimeMean.nc SLAmodel.nc4
 ```
 
-* Compute and remove spatial mean from SLA model files:
-```
-cdfmean
-
-```
-
-
 * Remove the gulf of Gascogne from the model outputs:
 ```
 cdfbathy -file modelfile.nc  -var sossheig -zoom 1 243 655 803 -set_zone 32767 -t 0
+```
+
+* Compute and remove spatial mean from SLA model files:
+```
+cdfmean 
+
 ```
 
 * Append glam and gphit to the SSH model output file:
