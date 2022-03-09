@@ -2,14 +2,15 @@
 Stephanie Leroux, UPDATED Feb 2022.
 
 * _What?_ 
-  - Along-track sampling of the model SSH (eNATL60-no-tide) in the MEDWEST subregion. 
+  - Along-track sampling of the model SLA (eNATL60-no-tide) in the MEDWEST subregion. 
+  - The model SLA is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
   - The interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
   - Each file is 6-month long:
   - In each file you’ll find:
     - sla_unfiltered (the real obs value (SLA)
-    - sossheig (Sea Surface Height interpolated at all alongtrack locations)
-    - sossheig_np (Sea Surface Height at nearest model grid point )
-  - Important: Note that the sla_filtered value (the real obs) is _not_ expected to be consistent with the interpolated model values (sossheig) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
+    - slam (Sea Level Anomaly from model after removing time mean and spatial mean, interpolated at all alongtrack locations)
+    - slam_np (Sea Level Anomaly from model after removing time mean and spatial mean, at nearest model grid point )
+  - Important: Note that the sla_filtered value (the real obs) is _not_ expected to be consistent with the interpolated model values (slam) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
 
 * _Data:_
 Sampling of the model SSH along the satellite tracks of :
