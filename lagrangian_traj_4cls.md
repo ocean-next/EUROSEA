@@ -4,13 +4,13 @@
 _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/Eurosea/Lagragian_trajectories_b/catalog.html
 
-_What trajectories were computed:_ 
+_Which trajectories were computed?_ 
 *  146 particles, evenly spaced, are initiated  in the MEDWEST region (see Fig.2 below for illustration) every 3 months, so that 4 sets of particles are  produced (labeled exp1, exp2, exp3, exp4), initiated on 1st of july 2009, 1st of october 2009, 1st of january 2010,1st of april 2010. 
 * The initial locations of the particles are generated from the NEMO-eNATL60 grid, taking 1 location every 45 from the native NEMO grid. (--> it corresponds to one particle initiated every 45/60 = 0.75º)
 * The lagrangian trajectories are then computed  for 4 months based on the horizontal currents (u,v) at 15 m depth, and computed and saved every 1h.
 * Particles are deleted from the set when they reach the regional boundaries, so after 4 months, there is 105 particles left in exp 1, 103 in exp2, 108 in exp3, and exp4 respectively). See Fig.3 for an illustration.  The trajectories that are dropped before the end of  the 4 months are stored in additional files apart (see below).
 
-_What do the netcdf files  contain:_
+_The netcdf files  contain:_
 * For each experiment:  
   - One file contains all the trajectories that remain within the domain for the 4 months. 
   - Four additional files contains the trajectories that were dropped after 1, 2, 3 and 4 months. Those files are labeled  with “dropped1M” “dropped2M” “dropped3M” and “dropped4M”  respectively.
