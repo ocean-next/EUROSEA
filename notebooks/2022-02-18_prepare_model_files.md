@@ -12,8 +12,11 @@ ncwa  -a t missvar.nc missvar_cleaned.nc
 
 * Compute time-mean SSH and remove from SSH file to get SLA.
 ```
+# compute time mean with cdftool 
 cdfmoy -l SSHmodelfile.nc -vvl -nc4 -var sossheig -o SSH_TimeMean.nc
+# remove time dimension
 ncwa -O -a time_counter SSH_TimeMean.nc SSH_TimeMean.nc
+# substract time mean to SSH and compress output in netcdf 4
 ncdiff -4 -L 4 -v sossheig SSHmodelfile.nc SSH_TimeMean.nc SLAmodel.nc4
 ```
 
