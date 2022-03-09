@@ -24,7 +24,7 @@ cdfbathy -file modelfile.nc  -var sossheig -zoom 1 243 655 803 -set_zone 32767 -
 
 * Compute and remove spatial mean from SLA model files:
 ```
-cdfmean 
+cdfmean -f $modelfileSLA.nc -v sossheig -p T   -zeromean -o modelfile_SLA_spmean.nc -oz modelfile_SLA_slaanom.nc
 
 ```
 
