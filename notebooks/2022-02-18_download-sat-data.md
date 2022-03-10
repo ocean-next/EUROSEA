@@ -9,8 +9,8 @@
 ```
 * I downloaded only 6 months at a time otherwise the files are too big to process. Usage: 
 ```
-./download_alontrack_data_cmems.sh jason3 2016 0701 2017 0101
-./download_alontrack_data_cmems.sh jason3 2017 0101 2017 0701
+./download_alontrack_data_cmems.sh jason3 2020 0701 2017 0101
+./download_alontrack_data_cmems.sh jason3 2021 0101 2017 0701
 ```
 
 * Note:  the script is ready to download `jason3` data for now. Other satelites will be added soon from the available list here: https://resources.marine.copernicus.eu/product-detail/SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044/INFORMATION
