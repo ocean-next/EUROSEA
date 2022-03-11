@@ -34,17 +34,38 @@ cd2=`echo ${DT2} | cut -c3-4`
 
 h1="00:00:00" ; h2="23:59:59" ; # Begining and end of a day...
 
-
 case ${sat} in
+    "altika")    NAME="ALTIKA"
+                SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
+                PID="dataset-duacs-nrt-global-al-phy-l3"
+                ;;
+    "sentinel3a") NAME="SENTINEL3A"
+                SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
+                PID="dataset-duacs-nrt-global-s3a-phy-l3"
+                ;;
+    "sentinel3b") NAME="SENTINEL3B"
+                SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
+                PID="dataset-duacs-nrt-global-s3b-phy-l3"
+                ;;
+    "cryosat2") NAME="CRYO2N"
+                SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
+                PID="dataset-duacs-nrt-global-c2n-phy-l3"
+                ;;
     "jason3") NAME="JASON3"
                 SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
                 PID="dataset-duacs-nrt-global-j3-phy-l3"
                 ;;
+    "h2b") NAME="H2B"
+                SID="SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044-DGF"
+                PID="dataset-duacs-nrt-global-h2b-phy-l3"
+                ;;
+
     *) echo
        echo " PROBLEM: Satellite ${sat} is unknown!"
        echo; exit
        ;;
 esac
+
 
 
 VAR2KEEP="time,latitude,longitude,cycle,track,sla_unfiltered,mdt" ; # variables to keep from original downloaded files...
