@@ -13,4 +13,8 @@
 ./download_alontrack_data_cmems.sh jason3 2021 0101 2017 0701
 ```
 
-* Note:  the script is ready to download `jason3` data for now. Other satelites will be added soon from the available list here: https://resources.marine.copernicus.eu/product-detail/SEALEVEL_GLO_PHY_L3_NRT_OBSERVATIONS_008_044/INFORMATION
+* Note:  the script is currently ready to download `jason3` `sentinel3a` `sentinel3b` `h2b` `cryosat2` `altika`.
+
+* Note: all the downloaded files concatenated and reformatted are available in the DATA_src of the opendap.
+
+
