@@ -45,3 +45,5 @@ cdo -shifttime,11years modelfilein.nc modelfileout.nc
 ```
 ncks -4 -L4 -C -O -x  -v nav_lon,nav_lat modelfileout.nc modelsshfile_corrected.nc 
 ```
+
+* Note: the resulting model files after all these processing steps are available in the DATA_src of the opendap.
