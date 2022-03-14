@@ -2,22 +2,26 @@
 Stephanie Leroux, UPDATED Feb 2022.
 
 * _What?_ 
-  - Along-track sampling of the model SLA (eNATL60-no-tide) in the MEDWEST subregion. 
-  - The model SLA is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
+  - Along-track sampling of the model SSH and SLA(*) (eNATL60-no-tide) in the MEDWEST subregion. 
+  - (*) The model SLA(*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
   - The along track interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
-  - Each file is 6-month long:
-  - In each file you’ll find:
+  - Each file is 6-month long.
+  - In each *SLA* file you’ll find:
     - sla_unfiltered (the real obs value (SLA)
     - slam (Sea Level Anomaly from model after removing time mean and spatial mean, interpolated at all alongtrack locations)
     - slam_np (Sea Level Anomaly from model after removing time mean and spatial mean, at nearest model grid point )
+  - In each *SSH* file you’ll find:
+    - sla_unfiltered (the real obs value (SLA)
+    - sossheig (SSH from model, interpolated at all alongtrack locations)
+    - sossheig_np (SSH from model , at nearest model grid point )
   - Important: Note that the sla_filtered value (the real obs) is _not_ expected to be consistent with the interpolated model values (slam) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
-
+  - Important too: If you need to retrieve the time-mean and spatial mean that was substracted from the model SSH, you can substract both interpolated files:  SSH_interpolated - SLA_interpolated. You can also look directly at the time-mean model gridded field (on the opendap).
+ 
 * _Data:_
-Sampling of the model SSH along the satellite tracks of :
-  - JASON3
+Sampling of the model SLA(*) and SSH along the satellite tracks of :
+  - Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B
     - From 2020-07-01 to 2020-12-31.
     - From 2021-01-01 to 2021-06-30.
-  - Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B: TO COME SOON.
 
 * _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
