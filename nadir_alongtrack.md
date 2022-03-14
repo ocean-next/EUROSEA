@@ -3,7 +3,7 @@ Stephanie Leroux, UPDATED  2022-03-14.
 
 * _What?_ 
   - Along-track sampling of the model SSH and SLA(*) (eNATL60-no-tide) in the MEDWEST subregion. 
-  - (\*) The model SLA(\*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
+  - (\*) The model SLA(\*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) __and also then removing the spatial mean over the basin at each hourly model output__ as a proxy for filtering out large scales (as requested by SOCIB/IMEDEA/CLS).
   - The along track interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
   - Each file is 6-month long.
   - In each `*SLA*` file you’ll find:
