@@ -24,7 +24,7 @@ Sampling of the model SLA(*) and SSH along the satellite tracks of :
     - From 2021-01-01 to 2021-06-30.
 
 * _Where to download the data:_
-  - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
+  - On the opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
   - In INTERP_RESULTS you'll find the interpolation results (for SLA and SSH).
   - In DATA_src you'll find all the input data used to perform the interpolation: 
     - along track real obs downloaded from CMEMS portal and reformatted (see github notebooks for more details): jason3, sentinel3a, sentinel3b, altika, h2b, cryosat2.
