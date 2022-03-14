@@ -1,8 +1,11 @@
-## Extracting alongtrack nadir SSH from eNATL60-no-tide in the EUROSEA target regions
+# Extracting alongtrack nadir SSH from eNATL60-no-tide in the EUROSEA target regions
 Stephanie Leroux, UPDATED  2022-03-14.
 
-* _What?_ 
+## _What?_ 
   - Along-track sampling of the model SSH and SLA(*) (eNATL60-no-tide) in the MEDWEST subregion. 
+  - Sampling along the satellite tracks of Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B
+    - From 2020-07-01 to 2020-12-31.
+    - From 2021-01-01 to 2021-06-30.
   - (\*) The model SLA(\*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) __and also then removing the spatial mean over the basin at each hourly model output__ as a proxy for filtering out large scales (as requested by SOCIB/IMEDEA/CLS).
   - The along track interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
   - Each file is 6-month long.
@@ -16,14 +19,9 @@ Stephanie Leroux, UPDATED  2022-03-14.
     - sossheig_np (SSH from model , at nearest model grid point )
   - Important: Note that the sla_filtered value (the real obs) is _not_ expected to be consistent with the interpolated model values (slam) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
   - Important too: If you need to retrieve the time-mean and spatial mean that was substracted from the model SSH, you can substract both interpolated files:  SSH_interpolated - SLA_interpolated. You can also look directly at the time-mean model gridded field (on the opendap).
- 
-* _Data:_
-Sampling of the model SLA(*) and SSH along the satellite tracks of :
-  - Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B
-    - From 2020-07-01 to 2020-12-31.
-    - From 2021-01-01 to 2021-06-30.
 
-* _Where to download the data:_
+
+## _Where to download the data?:_
   - On the opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
   - In `INTERP_RESULTS` you'll find the interpolation results (for SLA and SSH).
   - In `DATA_src` you'll find all the input data used to perform the interpolation: 
@@ -34,7 +32,7 @@ Sampling of the model SLA(*) and SSH along the satellite tracks of :
 
 
 
-* _How is this done? (step by step documentation)_
+## _How is this done? (step by step documentation)_
   - Step1. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-02-18_download-sat-data.md) explaining how to download and prepare the satellite files before applying the interpolation tool.
   - Step2. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-02-18_prepare_model_files.md) explaining how to prepare the model files before applying the interpolation tool.
   - Step3. [Notebook](https://github.com/ocean-next/EUROSEA/blob/main/notebooks/2022-03-09_interpolation_alongtrack.ipynb) demonstrating the interpolation step.
