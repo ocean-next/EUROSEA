@@ -25,6 +25,13 @@ Sampling of the model SLA(*) and SSH along the satellite tracks of :
 
 * _Where to download the data:_
   - https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/lerouste/Eurosea2022/pseudo-ssh-alongtrack/catalog.html
+  - In INTERP_RESULTS you'll find the interpolation results (for SLA and SSH).
+  - In DATA_src you'll find all the input data used to perform the interpolation: 
+    - along track real obs downloaded from CMEMS portal and reformatted (see github notebooks for more details): jason3, sentinel3a, sentinel3b, altika, h2b, cryosat2.
+    - model gridded SSH and SLA (SLA: time mean and spatial mean removed): caution: in both files the variable is named sossheig. 
+    - model time-mean over the 2020-07-2021-06 period : *_TM.nc  (look for the sossheig_mean variable)
+    - model spatial mean in the west med region at each hourly output:  *_spmean.nc
+
 
 
 * _How is this done? (step by step documentation)_
