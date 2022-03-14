@@ -3,7 +3,7 @@ Stephanie Leroux, UPDATED  2022-03-14.
 
 ## _What?_ 
   - Along-track sampling of the model SSH and SLA(*) (eNATL60-no-tide) in the MEDWEST subregion. 
-  - Sampling along the satellite tracks of Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B
+  - Sampling along the satellite tracks of __Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B__
     - From 2020-07-01 to 2020-12-31.
     - From 2021-01-01 to 2021-06-30.
   - (\*) The model SLA(\*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) __and also then removing the spatial mean over the basin at each hourly model output__ as a proxy for filtering out large scales (as requested by SOCIB/IMEDEA/CLS).
