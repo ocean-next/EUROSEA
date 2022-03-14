@@ -3,14 +3,14 @@ Stephanie Leroux, UPDATED Feb 2022.
 
 * _What?_ 
   - Along-track sampling of the model SSH and SLA(*) (eNATL60-no-tide) in the MEDWEST subregion. 
-  - (*) The model SLA(*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
+  - (\*) The model SLA(\*) is computed by removing the time mean over the 1-year period (2020-07-01 to 2021-06-31) and then removing the spatial mean over the basin at each hourly model output.
   - The along track interpolation is made with the software gonzag (https://github.com/brodeau/gonzag) from Laurent Brodeau,  based on  the Akima interpolation method.
   - Each file is 6-month long.
-  - In each *SLA* file you’ll find:
+  - In each `*SLA*` file you’ll find:
     - sla_unfiltered (the real obs value (SLA)
     - slam (Sea Level Anomaly from model after removing time mean and spatial mean, interpolated at all alongtrack locations)
     - slam_np (Sea Level Anomaly from model after removing time mean and spatial mean, at nearest model grid point )
-  - In each *SSH* file you’ll find:
+  - In each `*SSH*` file you’ll find:
     - sla_unfiltered (the real obs value (SLA)
     - sossheig (SSH from model, interpolated at all alongtrack locations)
     - sossheig_np (SSH from model , at nearest model grid point )
