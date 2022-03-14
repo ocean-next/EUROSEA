@@ -17,7 +17,7 @@ Stephanie Leroux, UPDATED  2022-03-14.
     - sla_unfiltered (the real obs value (SLA)
     - sossheig (SSH from model, interpolated at all alongtrack locations)
     - sossheig_np (SSH from model , at nearest model grid point )
-  - Important: Note that the the real obs value ('sla_filtered')  is _not_ expected to be consistent with the interpolated model values (slam) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (ex: jason3 over 2020-2021).
+  - Important: Note that the the real obs value ('sla_filtered')  is _not_ expected to be consistent with the interpolated model values (slam) since the model was run in 2009-2010 and the real obs are taken in the years where the satellites exist (2020-2021).
   - Important too: If you need to retrieve the time-mean and spatial mean that was substracted from the model SSH, you can substract both interpolated files:  SSH_interpolated - SLA_interpolated. You can also look directly at the time-mean model gridded field (on the opendap).
 
 
