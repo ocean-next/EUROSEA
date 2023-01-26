@@ -33,5 +33,5 @@ _Fig.1 The two subregions MEDWEST and NANFL selected for Task 2.3, centered on  
 **Pseudo-obs  generated from the above model outputs and for the 2 subregions:**
 
 - pseudo-SWOT (swath and nadir, both for the sampling and science phase) [[data and info here](./swot_pseudoobs.md)],
-- pseudo alongtrack SENTINEL3,  SARAL, ENVISAT [[data and info here](./nadir_alongtrack.md)],
+- pseudo alongtrack Jason3, Altika, Cryosat-2 (c2n), H2B, Sentinel-3A, Sentinel-3B [[data and info here](./nadir_alongtrack.md)],
 - Lagrangian particles (pseudo-drifters) in the MEDWEST subregion [[data and info here](./lagrangian_traj.md)].
